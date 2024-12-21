@@ -5,7 +5,7 @@ title: "Home"
 
 # Hello, I'm Muhammed Sherief 👋
 
-**Seasoned DevOps Engineer** with 8+ years of experience in optimizing software development lifecycles and operational workflows. Highly skilled in architecting and implementing scalable **CI/CD pipelines** adhering to industry standards, ensuring efficient code integration, testing, and delivery. Expertise in **infrastructure-as-code (IaC)** and **container orchestration**, particularly in deploying mission-critical applications within **Kubernetes environments**. Demonstrated success in automating processes, streamlining deployment strategies, and fostering cross-functional team collaboration to enhance the speed, reliability, and quality of software delivery.
+<p class="lead">**Seasoned DevOps Engineer** with 8+ years of experience in optimizing software development lifecycles and operational workflows. Highly skilled in architecting and implementing scalable **CI/CD pipelines** adhering to industry standards, ensuring efficient code integration, testing, and delivery. Expertise in **infrastructure-as-code (IaC)** and **container orchestration**, particularly in deploying mission-critical applications within **Kubernetes environments**. Demonstrated success in automating processes, streamlining deployment strategies, and fostering cross-functional team collaboration to enhance the speed, reliability, and quality of software delivery.</p>
 
 ## Core Skills:
 
