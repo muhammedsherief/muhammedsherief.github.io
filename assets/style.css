@@ -59,3 +59,78 @@ footer {
   padding: 10px;
   margin-top: 30px;
 }
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-in from the left */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Slide-in from the right */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to the whole page */
+body {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Slide-in animation for sections */
+section {
+  animation: slideInLeft 1s ease-out;
+  opacity: 0;
+}
+
+/* Hover effects for buttons and links */
+a, .button {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a:hover, .button:hover {
+  transform: scale(1.1);
+  color: #2c3e50; /* Change the text color on hover */
+}
+
+/* Button style */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
