@@ -1,0 +1,7 @@
+title: "Muhammed Sherief - DevOps Engineer"
+description: "Automating Infrastructure, Scaling Applications, and Building CI/CD Pipelines"
+baseurl: ""
+url: "https://muhammedsherief.github.io"
+theme: jekyll-theme-minimal
+author: "Muhammed Sherief"
+markdown: kramdown
